@@ -1,0 +1,24 @@
+goos: linux
+goarch: amd64
+pkg: github.com/alvarolm/libntruprime-go
+cpu: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+BenchmarkGenerateKeyPair/653-6         	    6309	    194348 ns/op	    2560 B/op	       2 allocs/op
+BenchmarkGenerateKeyPair/761-6         	    4668	    260405 ns/op	    3072 B/op	       2 allocs/op
+BenchmarkGenerateKeyPair/857-6         	    3928	    318204 ns/op	    3456 B/op	       2 allocs/op
+BenchmarkGenerateKeyPair/953-6         	    3170	    382521 ns/op	    3840 B/op	       2 allocs/op
+BenchmarkGenerateKeyPair/1013-6        	    2612	    466889 ns/op	    4480 B/op	       2 allocs/op
+BenchmarkGenerateKeyPair/1277-6        	    1860	    670484 ns/op	    5376 B/op	       2 allocs/op
+BenchmarkEncapsulate/653-6             	   72250	     16923 ns/op	    1056 B/op	       2 allocs/op
+BenchmarkEncapsulate/761-6             	   61393	     19149 ns/op	    1184 B/op	       2 allocs/op
+BenchmarkEncapsulate/857-6             	   55004	     21984 ns/op	    1312 B/op	       2 allocs/op
+BenchmarkEncapsulate/953-6             	   52140	     26358 ns/op	    1440 B/op	       2 allocs/op
+BenchmarkEncapsulate/1013-6            	   46342	     23601 ns/op	    1568 B/op	       2 allocs/op
+BenchmarkEncapsulate/1277-6            	   32910	     34141 ns/op	    2080 B/op	       2 allocs/op
+BenchmarkDecapsulate/653-6             	   53144	     22560 ns/op	      32 B/op	       1 allocs/op
+BenchmarkDecapsulate/761-6             	   51910	     21316 ns/op	      32 B/op	       1 allocs/op
+BenchmarkDecapsulate/857-6             	   45534	     28705 ns/op	      32 B/op	       1 allocs/op
+BenchmarkDecapsulate/953-6             	   37863	     34131 ns/op	      32 B/op	       1 allocs/op
+BenchmarkDecapsulate/1013-6            	   40609	     30487 ns/op	      32 B/op	       1 allocs/op
+BenchmarkDecapsulate/1277-6            	   29337	     38129 ns/op	      32 B/op	       1 allocs/op
+PASS
+ok  	github.com/alvarolm/libntruprime-go	25.329s
